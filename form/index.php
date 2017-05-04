@@ -1,6 +1,7 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="form/styles.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
 	</head>
 	<body>
 		<div class="title" >
@@ -9,8 +10,10 @@
 		?>	
 		</div>
 		<h4 class="field"> Please complete the form below. Mandatory field in red. </h4>
-
-		<form action="form/process.php" method= "post">
+		<div>
+			<a href="list.php">Listar</a>
+		</div>
+		<form action="process.php" method= "post">
 			<div>
 				<label for="name"> First Name:</label>
 				<input type="text" name="name" id="name">
