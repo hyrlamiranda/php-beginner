@@ -2,4 +2,4 @@
 
 I'm learning PHP
 
->[Visit MY GitHub!](www.github.com/hyrlamiranda)
+>[Visit MY GitHub!](https://github.com/hyrlamiranda)
