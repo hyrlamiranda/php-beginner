@@ -1,18 +1,21 @@
 form{
 	/*Apenas para centralizar o form na página*/
-	margin: 0 auto;
-	width: 400px;
+	margin:0 auto;
+	width: 500px;
 	/*Para ver as bordas do formulário */
 	padding: 1em;
-	border: :1px solid #CCC;
+	border: :1px solid #CCCC;
 	border-radius: 1em;
 }
-form div + div {
+form div {
 	margin-top: : 1em;
 }
+
+div.email { color: red; }
+
 label {
 	display: inline-block;
-	width: 90px;
+	width: 100px;
 	text-align: right;
 }
 input, textarea {
@@ -50,7 +53,7 @@ textarea {
 
 }
 button {
-	margin-left: 0.3em;
+	margin-left: 1.1em;
 	margin-top: 10px;
 }
 
@@ -59,6 +62,11 @@ button {
 }
 
 .title {
-	color: #e60000;
+	color: black;
 	text-align:center;
+}
+h4.field {
+	color: blue;
+	text-align:center;
+	border: 1px solid; 
 }

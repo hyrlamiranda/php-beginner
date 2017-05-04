@@ -1,11 +1,18 @@
 <?php
 $name = $_POST['name'];
+$last = $_POST['last'];
+$phone = $_POST['phone'];
+$county = $_POST['county'];
 $email = $_POST['email'];
 $msg = $_POST['msg'];
-$endereco = $_POST['endereco'];
 
-echo "Olá " . $name . " seu email é " . $email;
+echo "Hello " . $name . " your email is " . $email;
 echo "<br>";
-echo "Seu endereço de confirmação é " . $endereco;
+echo "Your phone is " . $phone;
 echo "<br>";
-echo " Sua mensagem: " . $msg
+echo "You are from " . $county;
+echo"<br>";
+echo "Your message: " . $msg;
+
+?>
+
