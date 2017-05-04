@@ -1,6 +1,5 @@
-#**Welcome my repository!**
-_PHP_
+## Welcome my repository!
 
-####I'm learning PHP
+I'm learning PHP
 
 >[Visit MY GitHub!](www.github.com/hyrlamiranda)
