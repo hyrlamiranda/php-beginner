@@ -19,21 +19,21 @@
 				<input type="text" name="name" id="name">
 			</div>
 			<div>
-				<label for="last">Last Name:</label>
+				<label for="lastname">Last Name:</label>
 				<input type="text" name="last" id="last">
 			</div>
 			<div class="email">
 
 				<label for="email">E-mail:</label>
-				<input type="email" name="email" id="email">
+				<input type="email" required="required" class="input-text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
 			</div>
 			<div>
 				<label for= "phone">Phone:</label>
-				<input type="text" name="phone" id="phone">
+				<input type="tel" required="required" maxlength="15" name="phone" pattern="\([0-9]{2}\)[0-9]{4,6}-[0-9]{3,4}$" />
 			</div>
 			<div>
 				<label for="county">County</label> 
-				<input type="text" name="county"  id="county">
+				<input type="text" name="county" id="county">
 			</div>
 			<div>
 				<label for="msg" class="msg">Message:</label>
