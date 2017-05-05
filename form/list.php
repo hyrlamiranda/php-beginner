@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,6 +37,8 @@ foreach ($result as $row) {
 	 echo "<td>" . $row['email'] . "</td>";
 	 echo "<td>" . $row['msg'] . "</td>";
 	 echo "<td>" . $row['county'] . "</td>";
+	 echo "<td><a href='edit.php?id=".$row['id']."'>Edit</a></td>";
+	 echo "<td><a href='delete.php?id=".$row['id']."'>x</a></td>";
  echo "</tr>";	
 }
 echo "</table>";
