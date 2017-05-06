@@ -1,0 +1,87 @@
+form{
+	/*Apenas para centralizar o form na página*/
+	margin:0 auto;
+	width: 500px;
+	/*Para ver as bordas do formulário */
+	padding: 1em;
+	border: :1px solid #CCCC;
+	border-radius: 1em;
+}
+form div {
+	margin-top: : 1em;
+}
+
+div.email { color: red; }
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+input, textarea {
+	/* Para certificar-se que todos os campos de texto tem as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace */
+	font: 1em sans-serif;
+
+	/* Para dar o mesmo tamanho a todos os campos de texto */
+	width: 300px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	/* Para harmonizar o look & feel das bordas nos campos de texto*/
+	border: 1px solid #999;
+	margin-top: 10px;
+}
+input:focus, textarea:focus {
+	/* Dar um pouco de destaque nos elementos ativos */
+	border-color: #000;
+
+
+}
+textarea {
+    /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
+    vertical-align: top;
+
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 5em;
+
+    /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
+    resize: vertical;
+}
+.button {
+
+	padding-left: 90px;
+
+}
+button {
+	margin-left: 1.1em;
+	margin-top: 10px;
+}
+
+.msg {
+	margin-top:8px;
+}
+
+.title {
+	color: black;
+	text-align:center;
+}
+h4.field {
+	color: blue;
+	text-align:center;
+	border: 1px solid; 
+}
+table.table{
+	font-family: verdana, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
