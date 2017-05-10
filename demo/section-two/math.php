@@ -20,8 +20,8 @@ echo 34*234;
 echo "<br>";
 echo 12/3;
 
-$number1 = 14;
-$number2 = 23;
+$number1 = 4;
+$number2 = 2;
 
 echo $number1*$number2;
 
