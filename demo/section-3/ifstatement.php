@@ -8,6 +8,17 @@
 
 <?php 
 
+/* Example 1
+ * 
+ * if(3 > 10){
+
+	echo "Tree is less that ten";
+
+}else {
+
+	echo "it is not";
+} */
+
 if(3 > 10){
 
 	echo "Tree is less that ten";
