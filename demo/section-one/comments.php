@@ -8,7 +8,6 @@
 <?php
 
 /* This function below displays text
-
 This is multiline comment */
 
 // one line comment
